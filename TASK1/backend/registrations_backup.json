@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "mock_1782310004294_mhzydt2dg",
+    "name": "Taha Nawab",
+    "email": "taha@codiora.com",
+    "technology": "Full Stack Development",
+    "createdAt": "2026-06-24T14:06:44.294Z"
+  },
+  {
+    "_id": "mock_1782310087623_z2yas2ssj",
+    "name": "Alice Smith",
+    "email": "alice@example.com",
+    "technology": "UI/UX Design",
+    "createdAt": "2026-06-24T14:08:07.623Z"
+  }
+]
