@@ -14,7 +14,6 @@ import {
   Layers,
   GraduationCap
 } from 'lucide-react';
-import confetti from 'canvas-confetti';
 import './App.css';
 
 const API_BASE = 'http://localhost:5000/api';
@@ -157,14 +156,6 @@ function App() {
       const data = await response.json();
 
       if (response.ok) {
-        // Success animation!
-        confetti({
-          particleCount: 80,
-          spread: 60,
-          origin: { y: 0.8 },
-          colors: ['#6366f1', '#a855f7', '#06b6d4', '#10b981']
-        });
-
         // Add record to top of UI state
         setRegistrations(prev => [data.data, ...prev]);
 

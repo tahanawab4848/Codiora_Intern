@@ -1,0 +1,18 @@
+# Dependency directories
+node_modules/
+**/node_modules/
+
+# Production build outputs
+dist/
+**/dist/
+
+# Local env files
+.env
+**/.env
+
+# Backups, diagnostics, and logs
+registrations_backup.json
+**/registrations_backup.json
+backend/test_mongo.js
+*.log
+.DS_Store
